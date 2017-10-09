@@ -1,0 +1,25 @@
+{
+  "name": "tracery-twitter-bot",
+  "version": "1.0.0",
+  "description": "twitterbot generating from tracery",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "byronhulcher",
+  "license": "ISC",
+  "dependencies":
+  {
+    "express": "4.x",
+    "node-persist":"2.x",
+  	"tracery-grammar": "2.x",
+    "twit" : "1.x"
+  },
+  "engines": {
+    "node": "6.9.x"
+  },
+  "repository" : { 
+    "type" : "glitch",
+    "url" : "https://glitch.com/edit/#!/tracery-twitter-bot"
+  }
+}
